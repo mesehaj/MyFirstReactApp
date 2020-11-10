@@ -75,7 +75,7 @@ class App extends React.Component {
           <Form.Control type="text" name="name" placeholder="Enter Nick Name" value={ this.state.name } onChange={ this.handleChange }/>
         </Form.Group>
         <Form.Group controlId="formBasicEmail">
-          <Form.Label>Enter Your Email</Form.Label>
+          <Form.Label>Enter Any Thought</Form.Label>
           <Form.Control type="thought" name="thought" placeholder="Enter Thoughts" value={ this.state.thought } onChange={ this.handleChange } maxlength = "50"/>
         </Form.Group>
       </Form>
