@@ -20,7 +20,7 @@ class App extends React.Component {
       monsters: [],
       name: 'Dracula',
       thought: 'I am Here for Your Blood!',
-      id: 1
+      id: 22
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -67,8 +67,8 @@ class App extends React.Component {
         </h3>
         <p className="w-25 float-left">
         <Form><Form.Group controlId="formBasicId">
-        <Form.Label>Enter Random Number</Form.Label>
-        <Form.Control type="number" name="id" placeholder="Enter Your Favourite Number" value={ this.state.id } onChange={ this.handleChange } max="100" min="1"/>
+        <Form.Label>Enter Your Favourite Number From 1 - 100</Form.Label>
+        <Form.Control type="number" name="id" placeholder="Enter Your Favourite Number From 1 - 100" value={ this.state.id } onChange={ this.handleChange } max="100" min="1"/>
       </Form.Group>
         <Form.Group controlId="formBasicName">
           <Form.Label>Enter your Name</Form.Label>
